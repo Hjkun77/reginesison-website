@@ -1,19 +1,37 @@
 <template>
   <footer class="footer">
     <div class="footer__copyright">
-      <div class="top">
-        <span>Design Inspiration from</span>
+      <div class="footer__span">
+        <div class="top">
+          <span>Designed by</span>
+        </div>
+        <div class="bottom">
+          <span>
+            <a
+              href="https://github.com/bchiang7"
+              target="_blank"
+              class="underline-link"
+              >Brittany Chiang</a
+            >
+          </span>
+          <!-- <img class="emoji" :src="RockOn" alt="emoji" /> -->
+        </div>
       </div>
-      <div class="bottom">
-        <span>
-          <a
-            href="https://github.com/bchiang7"
-            target="_blank"
-            class="underline-link"
-            >Brittany Chiang</a
-          >
-        </span>
-        <img class="emoji" :src="RockOn" alt="emoji" />
+      <div class="footer__span">
+        <div class="top">
+          <span>Template by</span>
+        </div>
+        <div class="bottom">
+          <span>
+            <a
+              href="https://github.com/bchiang7"
+              target="_blank"
+              class="underline-link"
+              >Krizza Bullecer</a
+            >
+          </span>
+          <!-- <img class="emoji" :src="RockOn" alt="emoji" /> -->
+        </div>
       </div>
     </div>
     <div class="footer__links">
@@ -32,7 +50,7 @@
 </template>
 
 <script>
-import RockOn from '@/assets/img/icons/rockon.png'
+// import RockOn from '@/assets/img/icons/rockon.png'
 import EmailIcon from '@/assets/img/social/email.svg'
 // import GithubIcon from '@/assets/img/social/github.svg'
 import InstagramIcon from '@/assets/img/social/instagram.svg'
@@ -41,7 +59,7 @@ import InstagramIcon from '@/assets/img/social/instagram.svg'
 export default {
   data() {
     return {
-      RockOn,
+      // RockOn,
       socialLinks: [
         {
           url: 'mailto:reginemaesison02@gmail.com',
@@ -88,9 +106,12 @@ export default {
   }
   &__copyright {
     font-weight: 700;
-    width: 200px;
+    // width: 200px;
+    display: flex;
+    justify-content: center;
     @include weird-medium {
       width: auto;
+      justify-content: space-between;
       text-align: center;
       margin-bottom: 25px;
     }
@@ -189,6 +210,14 @@ export default {
         display: inline-block;
       }
     }
+  }
+}
+
+.footer__span {
+  margin-right: 30px;
+
+  @include weird-medium {
+    margin: 16px;
   }
 }
 </style>

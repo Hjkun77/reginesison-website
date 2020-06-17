@@ -48,15 +48,15 @@ export default {
         {
           title: 'Growing Paths',
           desc:
-            'This artwork symbolizes that we are like trees that continue to grow; that we will encounter cross-roads like the branches pointing and intersecting in different directions; and that our growth and journey in life will eventually create who we will be in the future. This is a self-initiated project.',
+            'This is a highschool project where I was tasked to create an artwork in the style of the Symbolism Art Movement.',
           link: null,
           img: GD1,
           tools: ['Illustrator Draw', 'Photoshop Draw']
         },
         {
-          title: 'Stop Air',
+          title: 'Stop Air Pollution',
           desc:
-            'This is an advocacy to stop further pollution in the atmosphere—by minimizing the use of electricity and the burning of fossil fuels.  This is a self-initiated project.',
+            'This is an advocacy to stop further pollution in the atmosphere.',
           link: null,
           img: GD2,
           tools: ['Illustrator Draw', 'Photoshop Draw']
@@ -64,15 +64,15 @@ export default {
         {
           title: 'Liquid Galaxy Shirt Design',
           desc:
-            'I was tasked to create a drawing for a put-in-a-shirt in the Google Code-In competition.',
+            'I was tasked to create a put-in-a-shirt drawing for the Google Code-In competition.',
           link: null,
           img: GD3,
-          tools: ['Photoshop']
+          tools: ['Photoshop', 'Tayasui Sketches']
         },
         {
           title: 'G_ Members',
           desc:
-            'G_ is a small team that holds events dedicated to building an environment where the youth can make new friends and feel the warmth of a community. Despite the lockdown, G_ continues to connect with their audience through social media. The goal of this project is create icons representing every G_ member—for the viewers to know each one.',
+            'The goal of this project is create icons representing every member of "G_", which is a small team that holds gatherings for the youth.',
           link: null,
           img: GD4,
           tools: ['Illustrator', 'Photoshop', 'Illustrator Draw']
@@ -80,7 +80,7 @@ export default {
         {
           title: 'Time',
           desc:
-            'This is one of the quotes posted in the social media of Mosaic, to inspire and remind others to live their life to the fullest. This a project requested by Mosaic BGC, Bread of Life Ministries.',
+            'This is one of the quotes posted in the social media of Mosaic, to inspire and remind others to live their life to the fullest.',
           link: null,
           img: GD5,
           tools: ['Illustrator']
@@ -88,7 +88,7 @@ export default {
         {
           title: 'Glass Planet',
           desc:
-            'This is one of the quotes posted in the social media of Mosaic, to inspire and remind others to live their life to the fullest.',
+            'This is a self-initiated work that I created to enhance my skill.',
           link: null,
           img: GD6,
           tools: ['Illustrator']

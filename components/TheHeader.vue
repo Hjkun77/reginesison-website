@@ -9,8 +9,8 @@
     <h2 class="intro__motto">
       I'm
       <span class="pangalan">Regine Sison</span>, a senior high school student
-      🎓 and aspiring to be a professional designer and product manager from
-      Quezon City, Philippines 🎨
+      🎓, aspiring to be a professional designer and product manager from Quezon
+      City, Philippines 🎨
     </h2>
     <h3 class="intro__contact">
       <span>Get in touch</span>

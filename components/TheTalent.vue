@@ -36,7 +36,8 @@ export default {
             'Photoshop',
             'Photoshop Sketch',
             'Illustrator',
-            'Illustrator Draw'
+            'Illustrator Draw',
+            'Tayasui Sketches'
           ]
         },
         {

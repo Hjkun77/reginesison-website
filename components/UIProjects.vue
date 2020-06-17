@@ -47,7 +47,7 @@ export default {
         {
           title: 'COVID19 Diagnostic App',
           desc:
-            'The team was tasked to develop solutions for local community problems. This design allows the users to analyze potentiality of having acquired the corona virus, and allows them to immediately book an appointment with a doctor.',
+            'This is a Google Solutions Challenge entry, where the team decided to create a mobile app to help identify potential CoVID-19 cases.',
           link: null,
           img: UXUI1,
           tools: ['Figma']
@@ -61,17 +61,17 @@ export default {
           tools: ['Figma']
         },
         {
-          title: 'Tech Homeshop',
+          title: 'Daily UI',
           desc:
-            'This is a simple a sign-up page design for at-home workshops. This is one of the challenges sent by Daily UI.',
+            'This is one of the challenges sent by Daily UI where I was tasked to design a sign-up page.',
           link: null,
           img: UXUI3,
           tools: ['Figma']
         },
         {
-          title: 'Sea Turtles',
+          title: 'SeeTurtles',
           desc:
-            'This is a very minimalist landing page created specifically to advertise a campaign. This is a self initiated project.',
+            'This is a self-initiated landing page created specifically to advertise a campaign. ',
           link: null,
           img: UXUI4,
           tools: ['Figma']

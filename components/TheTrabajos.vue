@@ -47,7 +47,7 @@ export default {
           saan: 'Mosaic, Bread of Life',
           kelan: '2018 - Present',
           posisyon: 'Social Media Artist',
-          url: 'https://www.facebook.com/spiritfoodmosaicbgc/'
+          url: 'https://www.instagram.com/mosaic.bgc/'
         }
       ]
     }

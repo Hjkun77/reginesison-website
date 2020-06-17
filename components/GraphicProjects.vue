@@ -75,11 +75,7 @@ export default {
             'G_ is a small team that holds events dedicated to building an environment where the youth can make new friends and feel the warmth of a community. Despite the lockdown, G_ continues to connect with their audience through social media. The goal of this project is create icons representing every G_ member—for the viewers to know each one.',
           link: null,
           img: GD4,
-          tools: [
-            'Illustrator',
-            'Photoshop',
-            'Illustrator Draw'
-          ]
+          tools: ['Illustrator', 'Photoshop', 'Illustrator Draw']
         },
         {
           title: 'Time',

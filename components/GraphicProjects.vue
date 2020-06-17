@@ -51,7 +51,7 @@ export default {
             'This artwork symbolizes that we are like trees that continue to grow; that we will encounter cross-roads like the branches pointing and intersecting in different directions; and that our growth and journey in life will eventually create who we will be in the future. This is a self-initiated project.',
           link: null,
           img: GD1,
-          tools: ['Adobe Illustrator Draw', 'Adobe Photoshop Draw']
+          tools: ['Illustrator Draw', 'Photoshop Draw']
         },
         {
           title: 'Stop Air',
@@ -59,7 +59,7 @@ export default {
             'This is an advocacy to stop further pollution in the atmosphere—by minimizing the use of electricity and the burning of fossil fuels.  This is a self-initiated project.',
           link: null,
           img: GD2,
-          tools: ['Adobe Illustrator Draw', 'Adobe Photoshop Draw']
+          tools: ['Illustrator Draw', 'Photoshop Draw']
         },
         {
           title: 'Liquid Galaxy Shirt Design',
@@ -67,7 +67,7 @@ export default {
             'I was tasked to create a drawing for a put-in-a-shirt in the Google Code-In competition.',
           link: null,
           img: GD3,
-          tools: ['Adobe Photoshop']
+          tools: ['Photoshop']
         },
         {
           title: 'G_ Members',
@@ -76,9 +76,9 @@ export default {
           link: null,
           img: GD4,
           tools: [
-            'Adobe Illustrator',
-            'Adobe Photoshop',
-            'Adobe Illustrator Draw'
+            'Illustrator',
+            'Photoshop',
+            'Illustrator Draw'
           ]
         },
         {
@@ -87,7 +87,7 @@ export default {
             'This is one of the quotes posted in the social media of Mosaic, to inspire and remind others to live their life to the fullest. This a project requested by Mosaic BGC, Bread of Life Ministries.',
           link: null,
           img: GD5,
-          tools: ['Adobe Illustrator']
+          tools: ['Illustrator']
         },
         {
           title: 'Glass Planet',
@@ -95,7 +95,7 @@ export default {
             'This is one of the quotes posted in the social media of Mosaic, to inspire and remind others to live their life to the fullest.',
           link: null,
           img: GD6,
-          tools: ['Adobe Illustrator']
+          tools: ['Illustrator']
         }
       ]
     }

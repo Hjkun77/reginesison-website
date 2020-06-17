@@ -7,6 +7,7 @@
           <a
             :href="p.link"
             target="_blank"
+            rel="noopener noreferrer"
             :style="{ fontSize: '1.25rem' }"
             :class="{ 'arrow-link': p.link }"
           >
@@ -41,7 +42,7 @@ export default {
         {
           title: 'Screen Recorder',
           desc:
-            'I always record my websites to create tutorial videos for my clients. I previously used a third-party app but I disliked the watermark on the videos after recording. Which is why I decided to create my own free screen recorder. Many thanks to <a href="https://fireship.io/" target="_blank" class="underline-link">fireship.io</a>.',
+            'I always record my websites to create tutorial videos for my clients. I previously used a third-party app but I disliked the watermark on the videos after recording. Which is why I decided to create my own free screen recorder. Many thanks to <a href="https://fireship.io/" target="_blank" rel="noopener noreferrer" class="underline-link">fireship.io</a>.',
           link: 'https://github.com/sirbully/electron-screen-recorder',
           tools: [
             'Git@Github',

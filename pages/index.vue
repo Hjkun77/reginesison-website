@@ -2,9 +2,9 @@
   <div class="portfolio">
     <toggle-wrap />
     <the-header />
-    <!-- <the-background />
+    <the-background />
     <the-talent />
-    <the-trabajos />-->
+    <the-trabajos />
     <!-- <featured-projects /> -->
     <graphic-projects />
     <UI-projects />
@@ -24,9 +24,9 @@
 <script>
 import ToggleWrap from '@/components/ToggleWrap.vue'
 import TheHeader from '@/components/TheHeader.vue'
-// import TheBackground from '@/components/TheBackground.vue'
-// import TheTalent from '@/components/TheTalent.vue'
-// import TheTrabajos from '@/components/TheTrabajos.vue'
+import TheBackground from '@/components/TheBackground.vue'
+import TheTalent from '@/components/TheTalent.vue'
+import TheTrabajos from '@/components/TheTrabajos.vue'
 // import FeaturedProjects from '@/components/FeaturedProjects.vue'
 import GraphicProjects from '@/components/GraphicProjects.vue'
 import UIProjects from '@/components/UIProjects.vue'
@@ -42,9 +42,9 @@ export default {
     TheHeader,
     GraphicProjects,
     UIProjects,
-    // TheBackground,
-    // TheTalent,
-    // TheTrabajos,
+    TheBackground,
+    TheTalent,
+    TheTrabajos,
     // FeaturedProjects,
     // OtherProjects,
     TheFooter
@@ -53,9 +53,9 @@ export default {
     return {
       myRocket: null,
       hovered: false,
-      title: 'Regine Sison',
+      title: 'Regine Sison | Student Designer',
       desc:
-        "I'm Regine Sison, a senior high school student 🎓 and asipiring to be a professional designer and product manager from Quezon City, Philippines 🎨",
+        "I'm Regine Sison, a senior high school student 🎓 and aspiring to be a professional designer and product manager from Quezon City, Philippines 🎨",
       img: Cover,
       url: '',
       siteName: 'Regine Sison'

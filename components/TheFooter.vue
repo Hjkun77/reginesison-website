@@ -10,6 +10,7 @@
             <a
               href="https://github.com/bchiang7"
               target="_blank"
+              rel="noopener noreferrer"
               class="underline-link"
               >Brittany Chiang</a
             >
@@ -26,6 +27,7 @@
             <a
               href="https://github.com/bchiang7"
               target="_blank"
+              rel="noopener noreferrer"
               class="underline-link"
               >Krizza Bullecer</a
             >
@@ -41,6 +43,7 @@
         :href="link.url"
         :title="link.title"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <span class="text">{{ link.title }}</span>
         <img :src="link.logo" :alt="link.title" />

@@ -1,6 +1,6 @@
 <template>
   <section id="featured-projects" class="section">
-    <div class="section__title">Graphic Design Projects</div>
+    <div class="section__title">Graphic Design</div>
     <div class="section__content">
       <div v-for="p in graphicDesign" :key="p.title" class="project">
         <figure class="project__pic">
@@ -10,9 +10,13 @@
         </figure>
         <figcaption class="project__caption">
           <div class="project__name">
-            <a :href="p.link" target="_blank" class="underline-link">
-              {{ p.title }}
-            </a>
+            <a
+              :href="p.link"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="underline-link"
+              >{{ p.title }}</a
+            >
           </div>
           <p v-html="p.desc"></p>
           <div class="project__used">
@@ -43,45 +47,55 @@ export default {
       graphicDesign: [
         {
           title: 'Growing Paths',
-          desc: null,
+          desc:
+            'This artwork symbolizes that we are like trees that continue to grow; that we will encounter cross-roads like the branches pointing and intersecting in different directions; and that our growth and journey in life will eventually create who we will be in the future. This is a self-initiated project.',
           link: null,
           img: GD1,
-          tools: ['Photoshop', 'Illustrator']
+          tools: ['Adobe Illustrator Draw', 'Adobe Photoshop Draw']
         },
         {
           title: 'Stop Air',
-          desc: null,
+          desc:
+            'This is an advocacy to stop further pollution in the atmosphere—by minimizing the use of electricity and the burning of fossil fuels.  This is a self-initiated project.',
           link: null,
           img: GD2,
-          tools: ['Photoshop', 'Illustrator']
+          tools: ['Adobe Illustrator Draw', 'Adobe Photoshop Draw']
         },
         {
           title: 'Liquid Galaxy Shirt Design',
-          desc: null,
+          desc:
+            'I was tasked to create a drawing for a put-in-a-shirt in the Google Code-In competition.',
           link: null,
           img: GD3,
-          tools: ['Photoshop', 'Illustrator']
+          tools: ['Adobe Photoshop']
         },
         {
           title: 'G_ Members',
-          desc: null,
+          desc:
+            'G_ is a small team that holds events dedicated to building an environment where the youth can make new friends and feel the warmth of a community. Despite the lockdown, G_ continues to connect with their audience through social media. The goal of this project is create icons representing every G_ member—for the viewers to know each one.',
           link: null,
           img: GD4,
-          tools: ['Photoshop', 'Illustrator']
+          tools: [
+            'Adobe Illustrator',
+            'Adobe Photoshop',
+            'Adobe Illustrator Draw'
+          ]
         },
         {
           title: 'Time',
-          desc: null,
+          desc:
+            'This is one of the quotes posted in the social media of Mosaic, to inspire and remind others to live their life to the fullest. This a project requested by Mosaic BGC, Bread of Life Ministries.',
           link: null,
           img: GD5,
-          tools: ['Photoshop', 'Illustrator']
+          tools: ['Adobe Illustrator']
         },
         {
           title: 'Glass Planet',
-          desc: null,
+          desc:
+            'This is one of the quotes posted in the social media of Mosaic, to inspire and remind others to live their life to the fullest.',
           link: null,
           img: GD6,
-          tools: ['Photoshop', 'Illustrator']
+          tools: ['Adobe Illustrator']
         }
       ]
     }

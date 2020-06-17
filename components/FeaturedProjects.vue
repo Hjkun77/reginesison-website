@@ -10,15 +10,23 @@
         </figure>
         <figcaption class="project__caption">
           <div class="project__name">
-            <a :href="p.link" target="_blank" class="underline-link">
-              {{
-              p.title
-              }}
+            <a
+              :href="p.link"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="underline-link"
+            >
+              {{ p.title }}
             </a>
           </div>
           <p v-html="p.desc"></p>
           <div class="project__used">
-            <span v-for="tool in p.tools" :key="tool" class="project__used__item">{{ tool }}</span>
+            <span
+              v-for="tool in p.tools"
+              :key="tool"
+              class="project__used__item"
+              >{{ tool }}</span
+            >
           </div>
         </figcaption>
       </div>
@@ -63,7 +71,7 @@ export default {
         {
           title: 'wandrr: Immersion app',
           desc:
-            'This is our submission for a hackathon. The theme of the hackathon was to bring more awareness to the Filipino culture.<br /><br /><a href="https://www.instagram.com/p/B86NnAVhKN3/" target="_blank" class="underline-link"><small>🏆Won 2nd place at Blue Hacks 2020!🏆</small></a>',
+            'This is our submission for a hackathon. The theme of the hackathon was to bring more awareness to the Filipino culture.<br /><br /><a href="https://www.instagram.com/p/B86NnAVhKN3/" target="_blank" rel="noopener noreferrer" class="underline-link"><small>🏆Won 2nd place at Blue Hacks 2020!🏆</small></a>',
           link: 'https://www.instagram.com/p/B86NnAVhKN3/',
           img: WanderProject,
           tools: ['Git@Github', 'Bootstrap', 'React']

@@ -9,7 +9,7 @@
     <h2 class="intro__motto">
       I'm
       <span class="pangalan">Regine Sison</span>, a senior high school student
-      🎓 and asipiring to be a professional designer and product manager from
+      🎓 and aspiring to be a professional designer and product manager from
       Quezon City, Philippines 🎨
     </h2>
     <h3 class="intro__contact">
@@ -19,6 +19,7 @@
         <a
           href="mailto:reginemaesison02@gmail.com"
           target="_blank"
+          rel="noopener noreferrer"
           class="highlight-link"
           >reginemaesison02@gmail.com</a
         >

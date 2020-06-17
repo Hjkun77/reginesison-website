@@ -6,9 +6,13 @@
         <div v-for="trabaho in trabahos" :key="trabaho.saan" class="trabajo">
           <div class="saan-kelan">
             <div class="trabajo__saan">
-              <a :href="trabaho.url" target="_blank" class="underline-link">{{
-                trabaho.saan
-              }}</a>
+              <a
+                :href="trabaho.url"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="underline-link"
+                >{{ trabaho.saan }}</a
+              >
             </div>
             <div class="trabajo__kelan">{{ trabaho.kelan }}</div>
           </div>
@@ -25,25 +29,25 @@ export default {
   data() {
     return {
       resume:
-        'https://drive.google.com/open?id=1ORdGWxHz4ErFlc4EXlMaPkF2Oox_ubHj',
+        'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3ea72991-1f40-47ae-b123-3de9b02f75ad/Resume_Regine_Sison_%281%29.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200617%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200617T063844Z&X-Amz-Expires=86400&X-Amz-Signature=946b651e6f91d0729a31bfc3d1168d2593669ecf7655f3df0db58d50f92455ce&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Resume_Regine%2520Sison%2520%281%29.pdf%22',
       trabahos: [
         {
-          saan: 'Exora Technologies',
-          kelan: 'Nov 2019 - Present',
-          posisyon: 'Platform Engineer',
-          url: 'htttps://www.exora.ph'
+          saan: 'Google DSC Solutions Challenge',
+          kelan: '2020',
+          posisyon: 'Mobile App UI Designer',
+          url: 'https://events.withgoogle.com/dsc-solution-challenge/'
         },
         {
-          saan: 'Women Who Code Manila',
-          kelan: 'Jan 2018 - Present',
-          posisyon: 'VueJS Tech Lead',
-          url: 'https://www.womenwhocode.com/manila/about#leaders'
+          saan: 'Google Code-In',
+          kelan: '2019',
+          posisyon: 'Open Source Contributor',
+          url: 'https://codein.withgoogle.com/archive/'
         },
         {
-          saan: 'My Kids Code PH',
-          kelan: 'Oct 2018 - Dec 2018',
-          posisyon: 'Programming Teacher',
-          url: 'https://www.instagram.com/p/BrXNIGyHWId'
+          saan: 'Mosaic, Bread of Life',
+          kelan: '2018 - Present',
+          posisyon: 'Social Media Artist',
+          url: 'https://www.facebook.com/spiritfoodmosaicbgc/'
         }
       ]
     }

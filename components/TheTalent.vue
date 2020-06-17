@@ -25,57 +25,31 @@ export default {
   data() {
     return {
       skillxsz: [
+        // {
+        //   title: 'Languages',
+        //   powers: ['Filipino', 'English', 'Mandarin', 'Japanese']
+        // },
         {
-          title: 'Languages',
+          title: 'Graphic Design',
           powers: [
-            'HTML',
-            'CSS',
-            'Sass',
-            'Javascript ES6+',
-            'NodeJS',
-            'PHP',
-            'Java',
-            'Python'
-          ]
-        },
-        {
-          title: 'Frameworks',
-          powers: [
-            'ReactJS',
-            'VueJS',
-            'jQuery',
-            'Express',
-            'Laravel',
-            'CodeIgniter',
-            'Spring',
-            'Django'
-          ]
-        },
-        {
-          title: 'Tools',
-          powers: [
-            'Git',
-            'Firebase',
-            'AWS',
-            'MySQL',
-            'MongoDB',
-            'PostgreSQL',
-            'WordPress',
-            'Jest'
-          ]
-        },
-        {
-          title: 'Design',
-          powers: [
-            'Bootstrap',
-            'Material',
-            'Bulma',
-            'Tailwind',
-            'UI/UX',
-            'Figma',
+            'Canva',
             'Photoshop',
-            'Illustrator'
+            'Photoshop Sketch',
+            'Illustrator',
+            'Illustrator Draw'
           ]
+        },
+        {
+          title: 'UX/UI Design',
+          powers: ['Figma', 'Notion']
+        },
+        {
+          title: 'Video Editing',
+          powers: ['Sony Vegas']
+        },
+        {
+          title: '3D Modeling',
+          powers: ['Blender']
         }
       ]
     }

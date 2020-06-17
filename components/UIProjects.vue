@@ -1,16 +1,21 @@
 <template>
   <section id="featured-projects" class="section">
-    <div class="section__title">User Interface Design Projects</div>
+    <div class="section__title">User Interface Design</div>
     <div class="section__content">
       <div v-for="p in uxui" :key="p.title" class="project">
         <figure class="project__pic">
-          <a :href="p.link" target="_blank">
+          <a :href="p.link" target="_blank" rel="noopener noreferrer">
             <img :src="p.img" alt />
           </a>
         </figure>
         <figcaption class="project__caption">
           <div class="project__name">
-            <a :href="p.link" target="_blank" class="underline-link">
+            <a
+              :href="p.link"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="underline-link"
+            >
               {{ p.title }}
             </a>
           </div>
@@ -41,28 +46,32 @@ export default {
       uxui: [
         {
           title: 'COVID19 Diagnostic App',
-          desc: null,
+          desc:
+            'The team was tasked to develop solutions for local community problems. This design allows the users to analyze potentiality of having acquired the corona virus, and allows them to immediately book an appointment with a doctor.',
           link: null,
           img: UXUI1,
           tools: ['Figma']
         },
         {
           title: 'Frontendback Website',
-          desc: null,
+          desc:
+            'I am in the process of creating an online startup design studio along with my collaborator. This is the user interface of our soon-to-launch website.',
           link: null,
           img: UXUI2,
           tools: ['Figma']
         },
         {
           title: 'Tech Homeshop',
-          desc: null,
+          desc:
+            'This is a simple a sign-up page design for at-home workshops. This is one of the challenges sent by Daily UI.',
           link: null,
           img: UXUI3,
           tools: ['Figma']
         },
         {
           title: 'Sea Turtles',
-          desc: null,
+          desc:
+            'This is a very minimalist landing page created specifically to advertise a campaign. This is a self initiated project.',
           link: null,
           img: UXUI4,
           tools: ['Figma']

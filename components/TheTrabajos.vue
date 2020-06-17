@@ -29,7 +29,7 @@ export default {
   data() {
     return {
       resume:
-        'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3ea72991-1f40-47ae-b123-3de9b02f75ad/Resume_Regine_Sison_%281%29.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200617%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200617T063844Z&X-Amz-Expires=86400&X-Amz-Signature=946b651e6f91d0729a31bfc3d1168d2593669ecf7655f3df0db58d50f92455ce&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Resume_Regine%2520Sison%2520%281%29.pdf%22',
+        'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/507ffd48-f2db-45a4-a13e-517f085d7f31/Resume_Regine-Sison.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200617%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200617T125226Z&X-Amz-Expires=86400&X-Amz-Signature=6db0e1acf9f6701be857e99836257a7fcca72c379e59fab88af61e15cd180a8d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Resume_Regine-Sison.pdf%22',
       trabahos: [
         {
           saan: 'Google DSC Solutions Challenge',

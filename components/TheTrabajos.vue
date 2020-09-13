@@ -11,8 +11,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="underline-link"
-                >{{ trabaho.saan }}</a
-              >
+              >{{ trabaho.saan }}</a>
             </div>
             <div class="trabajo__kelan">{{ trabaho.kelan }}</div>
           </div>
@@ -32,6 +31,13 @@ export default {
         'https://drive.google.com/file/d/1Y-haUn0Xfl40gWfCjHFV8saOaTCe4aOW/view?usp=sharing',
       trabahos: [
         {
+          saan: 'Create that App! Summer Bootcamp',
+          kelan: '2020',
+          posisyon: 'Design Instructor',
+          url:
+            'https://www.instagram.com/p/CCdLha5jNPP/?utm_source=ig_web_copy_link'
+        },
+        {
           saan: 'Google DSC Solutions Challenge',
           kelan: '2020',
           posisyon: 'Mobile App UI Designer',
@@ -42,12 +48,6 @@ export default {
           kelan: '2019',
           posisyon: 'Open Source Contributor',
           url: 'https://codein.withgoogle.com/archive/'
-        },
-        {
-          saan: 'Mosaic, Bread of Life',
-          kelan: '2018 - Present',
-          posisyon: 'Social Media Artist',
-          url: 'https://www.instagram.com/mosaic.bgc/'
         }
       ]
     }

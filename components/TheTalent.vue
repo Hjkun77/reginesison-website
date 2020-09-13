@@ -42,7 +42,7 @@ export default {
         },
         {
           title: 'UX/UI Design',
-          powers: ['Figma', 'Notion']
+          powers: ['Figma', 'Notion', 'Adobe XD']
         },
         {
           title: 'Video Editing',

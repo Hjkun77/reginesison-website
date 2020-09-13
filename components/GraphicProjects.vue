@@ -15,17 +15,11 @@
               target="_blank"
               rel="noopener noreferrer"
               class="underline-link"
-              >{{ p.title }}</a
-            >
+            >{{ p.title }}</a>
           </div>
           <p v-html="p.desc"></p>
           <div class="project__used">
-            <span
-              v-for="tool in p.tools"
-              :key="tool"
-              class="project__used__item"
-              >{{ tool }}</span
-            >
+            <span v-for="tool in p.tools" :key="tool" class="project__used__item">{{ tool }}</span>
           </div>
         </figcaption>
       </div>
@@ -64,7 +58,7 @@ export default {
         {
           title: 'Liquid Galaxy Shirt Design',
           desc:
-            'I was tasked to create a put-in-a-shirt drawing for the Google Code-In competition.',
+            'I was tasked to create a put-in-a-shirt drawing for Liquid Galaxy in the Google Code-In competition.',
           link: null,
           img: GD3,
           tools: ['Photoshop', 'Tayasui Sketches']

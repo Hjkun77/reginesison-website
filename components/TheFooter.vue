@@ -12,8 +12,7 @@
               target="_blank"
               rel="noopener noreferrer"
               class="underline-link"
-              >Brittany Chiang</a
-            >
+            >Brittany Chiang</a>
           </span>
           <!-- <img class="emoji" :src="RockOn" alt="emoji" /> -->
         </div>
@@ -29,8 +28,7 @@
               target="_blank"
               rel="noopener noreferrer"
               class="underline-link"
-              >Krizza Bullecer</a
-            >
+            >Krizza Bullecer</a>
           </span>
           <!-- <img class="emoji" :src="RockOn" alt="emoji" /> -->
         </div>
@@ -65,7 +63,7 @@ export default {
       // RockOn,
       socialLinks: [
         {
-          url: 'mailto:reginemaesison02@gmail.com',
+          url: 'mailto:regs.mms@gmail.com',
           title: 'Email',
           logo: EmailIcon
         },

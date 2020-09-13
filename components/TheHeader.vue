@@ -17,12 +17,11 @@
       <span class="emoji pointer" :style="rightPoint"></span>
       <span>
         <a
-          href="mailto:reginemaesison02@gmail.com"
+          href="mailto:regs.mms@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           class="highlight-link"
-          >reginemaesison02@gmail.com</a
-        >
+        >regs.mms@gmail.com</a>
       </span>
     </h3>
   </header>

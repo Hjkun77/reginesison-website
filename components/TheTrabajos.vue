@@ -27,8 +27,7 @@
 export default {
   data() {
     return {
-      resume:
-        'https://drive.google.com/file/d/1Y-haUn0Xfl40gWfCjHFV8saOaTCe4aOW/view?usp=sharing',
+      resume: '../assets/files/resume.pdf',
       trabahos: [
         {
           saan: 'Create that App! Summer Bootcamp',

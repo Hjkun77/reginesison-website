@@ -11,7 +11,8 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="underline-link"
-              >{{ trabaho.saan }}</a>
+                >{{ trabaho.saan }}</a
+              >
             </div>
             <div class="trabajo__kelan">{{ trabaho.kelan }}</div>
           </div>
@@ -27,7 +28,8 @@
 export default {
   data() {
     return {
-      resume: '../assets/files/resume.pdf',
+      resume:
+        'https://drive.google.com/file/d/1txCQzWtLpfdoc8rB7uTKZpWpKqX5unA_/view?usp=sharing',
       trabahos: [
         {
           saan: 'Create that App! Summer Bootcamp',

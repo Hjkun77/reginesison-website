@@ -29,7 +29,7 @@ export default {
   data() {
     return {
       resume:
-        'https://drive.google.com/file/d/1txCQzWtLpfdoc8rB7uTKZpWpKqX5unA_/view?usp=sharing',
+        'https://drive.google.com/file/d/1z-qBEqSooxZPmshu0mcXHclLgOIUZAC4/view?usp=sharing',
       trabahos: [
         {
           saan: 'Create that App! Summer Bootcamp',

@@ -5,9 +5,10 @@
     <the-background />
     <the-talent />
     <the-trabajos />
+    <UI-projects />
     <!-- <featured-projects /> -->
     <graphic-projects />
-    <UI-projects />
+    
     <!-- <other-projects /> -->
     <the-footer />
     <button

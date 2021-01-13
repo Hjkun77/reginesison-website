@@ -46,7 +46,7 @@ export default {
     return {
       uxui: [
         {
-          title: 'COVID19 Diagnostic App',
+          title: 'Virtivent',
           desc:
             'In a summer boot camp, I taught some UX/UI fundamentals to beginners in the field. Virtivent is a made-up application used to demonstrate the user research process.',
           link: "https://www.notion.so/Virtivent-c85412ccc8e64c98ae6600e430194305",

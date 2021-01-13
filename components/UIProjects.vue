@@ -1,6 +1,6 @@
 <template>
   <section id="featured-projects" class="section">
-    <div class="section__title">User Interface Design</div>
+    <div class="section__title">User Experience and Interface Design</div>
     <div class="section__content">
       <div v-for="p in uxui" :key="p.title" class="project">
         <figure class="project__pic">
@@ -39,11 +39,20 @@ import UXUI1 from '@/assets/img/projects/UI/1.png'
 import UXUI2 from '@/assets/img/projects/UI/2.png'
 import UXUI3 from '@/assets/img/projects/UI/3.png'
 import UXUI4 from '@/assets/img/projects/UI/4.png'
+import UXUI5 from '@/assets/img/projects/UI/5.png'
 
 export default {
   data() {
     return {
       uxui: [
+        {
+          title: 'COVID19 Diagnostic App',
+          desc:
+            'In a summer boot camp, I taught some UX/UI fundamentals to beginners in the field. Virtivent is a made-up application used to demonstrate the user research process.',
+          link: "https://www.notion.so/Virtivent-c85412ccc8e64c98ae6600e430194305",
+          img: UXUI5,
+          tools: ['Figma', 'Notion',]
+        },
         {
           title: 'COVID19 Diagnostic App',
           desc:

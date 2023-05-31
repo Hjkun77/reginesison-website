@@ -8,7 +8,6 @@
     <UI-projects />
     <!-- <featured-projects /> -->
     <graphic-projects />
-    
     <!-- <other-projects /> -->
     <the-footer />
     <button
@@ -29,7 +28,7 @@ import TheBackground from '@/components/TheBackground.vue'
 import TheTalent from '@/components/TheTalent.vue'
 import TheTrabajos from '@/components/TheTrabajos.vue'
 // import FeaturedProjects from '@/components/FeaturedProjects.vue'
-import GraphicProjects from '@/components/GraphicProjects.vue'
+// import GraphicProjects from '@/components/GraphicProjects.vue'
 import UIProjects from '@/components/UIProjects.vue'
 // import OtherProjects from '@/components/OtherProjects.vue'
 import TheFooter from '@/components/TheFooter.vue'
@@ -41,7 +40,7 @@ export default {
   components: {
     ToggleWrap,
     TheHeader,
-    GraphicProjects,
+    // GraphicProjects,
     UIProjects,
     TheBackground,
     TheTalent,
@@ -54,12 +53,12 @@ export default {
     return {
       myRocket: null,
       hovered: false,
-      title: 'Regine Sison | Student Designer',
+      title: 'Regine Sison | Product Designer',
       desc:
-        "I'm Regine Sison, a senior high school student 🎓 and aspiring to be a professional designer and product manager from Quezon City, Philippines 🎨",
+        "I'm Regine Sison, an undegraduate student from the Ateneo de Manila University 🎓 working as product designer, product manager and tech & design community leader from Quezon City, Philippines 🎨",
       img: Cover,
       url: '',
-      siteName: 'Regine Sison'
+      siteName: 'Regine Sison | Product Designer'
     }
   },
   computed: {

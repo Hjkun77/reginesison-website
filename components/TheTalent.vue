@@ -41,16 +41,16 @@ export default {
           ]
         },
         {
-          title: 'UX/UI Design',
-          powers: ['Figma', 'Notion', 'Adobe XD']
+          title: 'Product',
+          powers: ['UX/UI Design', 'User Research', 'Product Management']
         },
         {
-          title: 'Video Editing',
-          powers: ['Sony Vegas']
+          title: 'Media',
+          powers: ['Video Editing', 'Technical Directing']
         },
         {
-          title: '3D Modeling',
-          powers: ['Blender']
+          title: 'People Management',
+          powers: ['Leadership', 'Strategic Planning']
         }
       ]
     }

@@ -12,7 +12,8 @@
               target="_blank"
               rel="noopener noreferrer"
               class="underline-link"
-            >Brittany Chiang</a>
+              >Brittany Chiang</a
+            >
           </span>
           <!-- <img class="emoji" :src="RockOn" alt="emoji" /> -->
         </div>
@@ -28,7 +29,8 @@
               target="_blank"
               rel="noopener noreferrer"
               class="underline-link"
-            >Krizza Bullecer</a>
+              >Krizza Bullecer</a
+            >
           </span>
           <!-- <img class="emoji" :src="RockOn" alt="emoji" /> -->
         </div>
@@ -55,7 +57,7 @@
 import EmailIcon from '@/assets/img/social/email.svg'
 // import GithubIcon from '@/assets/img/social/github.svg'
 import InstagramIcon from '@/assets/img/social/instagram.svg'
-// import LinkedinIcon from '@/assets/img/social/linkedin.svg'
+import LinkedinIcon from '@/assets/img/social/linkedin.svg'
 
 export default {
   data() {
@@ -71,17 +73,17 @@ export default {
           url: 'https://www.instagram.com/red_jeanss/',
           title: 'Instagram',
           logo: InstagramIcon
-        }
+        },
         // {
         //   url: 'https://github.com/sirbully',
         //   title: 'Github',
         //   logo: GithubIcon
         // },
-        // {
-        //   url: 'https://www.linkedin.com/in/knabullecer',
-        //   title: 'LinkedIn',
-        //   logo: LinkedinIcon
-        // }
+        {
+          url: 'https://www.linkedin.com/in/regine-sison/',
+          title: 'LinkedIn',
+          logo: LinkedinIcon
+        }
       ]
     }
   }

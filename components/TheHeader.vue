@@ -8,9 +8,10 @@
     </h1>
     <h2 class="intro__motto">
       I'm
-      <span class="pangalan">Regine Sison</span>, a senior high school student
-      🎓, aspiring to be a professional designer and product manager from Quezon
-      City, Philippines 🎨
+      <span class="pangalan">Regine Sison</span>, an undergraduate student from
+      the Ateneo de Manila University 🎓, working as product designer, product
+      manager and tech & design community leader from Quezon City, Philippines
+      🎨
     </h2>
     <h3 class="intro__contact">
       <span>Get in touch</span>
@@ -21,7 +22,8 @@
           target="_blank"
           rel="noopener noreferrer"
           class="highlight-link"
-        >regs.mms@gmail.com</a>
+          >regs.mms@gmail.com</a
+        >
       </span>
     </h3>
   </header>

@@ -29,26 +29,49 @@ export default {
   data() {
     return {
       resume:
-        'https://drive.google.com/file/d/1z-qBEqSooxZPmshu0mcXHclLgOIUZAC4/view?usp=sharing',
+        'https://infrequent-title-90c.notion.site/Mabuhay-53266b876bae497b88dfc950391c3c25',
       trabahos: [
         {
-          saan: 'Create that App! Summer Bootcamp',
-          kelan: '2020',
-          posisyon: 'Design Instructor',
-          url:
-            'https://www.instagram.com/p/CCdLha5jNPP/?utm_source=ig_web_copy_link'
+          saan: 'Google Developer Student Clubs',
+          kelan: '2022-2023',
+          posisyon: 'Chief Product Officer',
+          url: 'https://www.gdscloyola.org/'
         },
         {
-          saan: 'Google DSC Solutions Challenge',
-          kelan: '2020',
-          posisyon: 'Mobile App UI Designer',
-          url: 'https://events.withgoogle.com/dsc-solution-challenge/'
+          saan: 'User Experience Society',
+          kelan: '2022-2023',
+          posisyon: 'Vice President for Consultancy',
+          url: 'https://uxsociety.org/'
         },
         {
-          saan: 'Google Code-In',
-          kelan: '2019',
-          posisyon: 'Open Source Contributor',
-          url: 'https://codein.withgoogle.com/archive/'
+          saan: 'THR1VE',
+          kelan: '2023',
+          posisyon: 'Technical Directing Head',
+          url: 'https://www.instagram.com/bolmakati/'
+        },
+        {
+          saan: 'Sarisuki',
+          kelan: '2022',
+          posisyon: 'Product Designer',
+          url: 'https://sarisuki.com/'
+        },
+        {
+          saan: 'BTYE',
+          kelan: '2021-2022',
+          posisyon: 'Product Manager',
+          url: 'https://www.facebook.com/byteadmu/'
+        },
+        {
+          saan: 'ErudiFi',
+          kelan: '2021',
+          posisyon: 'User Experience Researcher',
+          url: 'https://www.erudifi.com/'
+        },
+        {
+          saan: 'Teemly',
+          kelan: '2020-2022',
+          posisyon: 'Co-Founder and Chief Product Officer',
+          url: 'https://teemly.io/'
         }
       ]
     }

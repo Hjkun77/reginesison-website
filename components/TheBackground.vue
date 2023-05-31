@@ -3,22 +3,14 @@
     <div class="section__title">About me</div>
     <div class="section__content">
       <p>
-        I'm a grade 12 student, striving to design stunning, functional, and
-        meaningful projects. I create self-initiated works to consistently
-        sharpen my skills, and always aim to see every situation as a learning
-        opportunity.
-      </p>
-
-      <p>
-        With my abilities and experience, I also strive to prove the competence
-        of today's young people and inspire zealous learners like me to aim for
-        excellence.
-      </p>
-
-      <p>
-        When I'm not designing, I'm likely to be watching educational videos,
-        listening to podcasts, reading a book, and taking online courses for
-        skill improvement or personal development.
+        Ignite your digital experience with a visionary product designer, UX
+        enthusiast, and startup aficionado. I am
+        <strong><u>Regine Sison</u></strong
+        >, a dynamic force in the world of tech and design. With a passion for
+        innovation and a focus on creating products that empower people, I blend
+        form and function to deliver exceptional user-centric solutions. Join me
+        on this transformative journey as we shape the future of technology and
+        meaningful experiences for products and people alike.
       </p>
     </div>
   </section>

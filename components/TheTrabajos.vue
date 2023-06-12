@@ -29,7 +29,7 @@ export default {
   data() {
     return {
       resume:
-        'https://infrequent-title-90c.notion.site/Mabuhay-53266b876bae497b88dfc950391c3c25',
+        'https://drive.google.com/file/d/1Bq_KzayT5eArboVRPhYkc-vVHw9xa_eh/view?usp=sharing',
       trabahos: [
         {
           saan: 'Google Developer Student Clubs',
